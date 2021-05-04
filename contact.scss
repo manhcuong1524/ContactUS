@@ -1,0 +1,73 @@
+.page__title {
+    margin-bottom: 0;
+   
+}
+
+.heading {
+    font-family: var(--heading-font-family);
+    font-weight: var(--heading-font-weight);
+    font-style: var(--heading-font-style);
+    color: var(--heading-color);
+}
+.page__header--stack.page__header--centered {
+    align-items: center;
+}
+.h1{
+    padding-top: 30px;
+    font-family: "Source Code Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.page__header--centered {
+    text-align: center;
+    font-family:"Source Code Pro", sans-serif
+}
+.page__description {
+    margin: 10px 0 0 0;
+    padding-bottom: 30px;
+    font-family: Inconsolata, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(187, 184, 184);
+}
+
+.form-control{
+    width: 334px !important;
+    border-color: rgb(0, 0, 0) !important;
+}
+.fr{
+    margin-left: 330px ;
+    color: rgb(187, 184, 184);
+    float: left;
+}
+.form-floating>.form-control{
+    height: 50px; 
+}
+.form-floating>.form-control.p3{
+    height: 60px; 
+}
+.p6{
+    width: 678px !important;
+}
+.p22{
+    margin-left: 10px ;
+}
+.p3{
+    width: 678px !important;
+}
+
+
+@media only screen and (max-width: 720px){
+.form-floating{
+    margin-left: 10px ;
+    color: rgb(219, 219, 219);
+    float: left;
+    }
+.fr{
+    width: 350px;
+}
+.p3,.p6{
+    width: 350px !important;
+}
+}
